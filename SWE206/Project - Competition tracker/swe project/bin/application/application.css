@@ -1,0 +1,17 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+.root {
+	-fx-background-color: "White";
+}
+
+/* List view styling */
+.list-cell {
+	 -fx-background-color: #0093ff;
+	 -fx-font-size: 20;
+}
+.list-cell:filled:hover {
+    -fx-background-color: "White";
+}
+.list-cell:filled:selected:focused, .list-cell:filled:selected {
+    -fx-background-color: "Green";
+    -fx-text-fill: white;
+}
